@@ -66,3 +66,8 @@ Note:
 --
 
 ![Gipfel der Freude](images/gipfel_der_freude.jpg) <!-- .element height="65%" width="65%" -->
+
+---
+
+![](images/qr-presentation-link.png) <!-- .element height="40%" width="40%" -->
+https://xxthunder.github.io/GermanTestingDay2024/
