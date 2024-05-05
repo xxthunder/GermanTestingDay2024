@@ -40,7 +40,7 @@ So funktioniert es nicht!
 
 Was wir erschaffen wollten:
 
-![](../images/sw_factory.jpg) <!-- .element height="60%" width="60%" -->
+![](images/sw-factory.png) <!-- .element height="60%" width="60%" -->
 
 --
 

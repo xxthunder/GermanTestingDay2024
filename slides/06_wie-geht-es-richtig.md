@@ -67,6 +67,11 @@ Note:
 
 ![Gipfel der Freude](images/gipfel_der_freude.jpg) <!-- .element height="65%" width="65%" -->
 
+
+---
+
+![](images/feedback.png) <!-- .element height="48%" width="48%" -->
+
 ---
 
 ![](images/qr-presentation-link.png) <!-- .element height="40%" width="40%" -->
