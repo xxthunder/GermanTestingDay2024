@@ -1,8 +1,18 @@
 ## Wo kommen wir her?
 
-Back to 2005
+Back to 2005 <!-- .element: class="fragment" data-fragment-index="1" -->
 
-![18 Jahre zurück](images/back_to_the_past.png) <!-- .element width="50%" -->
+![18 Jahre zurück](images/back_to_the_past.png) <!-- .element width="50%" class="fragment" data-fragment-index="1" -->
+
+Note:
+
+Wo kommen wir eigentlich her?
+
+*click*
+
+Dazu geht es etwas zurück in die Vergangenheit, genauer gesagt ins Jahr 2005.
+
+Da hab ich als Neuling in der Automobilindustrie angefangen.
 
 --
 
@@ -12,6 +22,28 @@ Back to 2005
 - Ständig neue Anforderungen <!-- .element: class="fragment" -->
 - Gut bezahlte Jobs <!-- .element: class="fragment" -->
 - Das Paradies für SW Entwickler <!-- .element: class="fragment" -->
+
+Note:
+
+Wie war das damals in der Automobilindustrie?
+
+Eigentlich genauso wie heute.
+
+*click*
+
+Spannende Produkte: Bremsensteuergeräte, ESP, ABS, ACC, ...
+
+*click*
+
+Ständig neue Anforderungen, da viele Kunden, die sich von der Konkurrenz abheben wollen.
+
+*click*
+
+Die Jobs waren gut bezahlt.
+
+*click*
+
+Eigentlich das Paradies für SW Entwickler.
 
 --
 
@@ -23,6 +55,31 @@ Back to 2005
 - Always remember: don't break the build! <!-- .element: class="fragment" -->
 - Dem Ingenieur ist nix zu schwör! <!-- .element: class="fragment" -->
 
+Note:
+
+Und der Job?
+
+*click*
+
+Klar, wir hacken Embedded C für Bremsensteuergeräte.
+
+*click*
+
+Kein Problem, das hatten wir doch an der Uni.
+
+*click*
+
+Hier kam der erste Dämpfer.
+
+Man bekam Verantwortung für einen Teil des Codes, aber verändern sollte man ihn möglichst nicht.
+
+*click*
+
+Warum? Don't break the build!
+
+*click*
+
+Klang schwierig, aber wir hatten ja an der Uni gelernt: Dem Ingenieur ist nix zu schwör!
 --
 
 ## Die Ausgangslage
@@ -34,10 +91,39 @@ Back to 2005
 - Mehrere 100 Entwickler weltweit an einer Codebasis <!-- .element: class="fragment" -->
 
 Note:
-- Klar, wo testet man Bremsen? Im Auto.
-- Irgendwann, irgendwo in irgendeinem Projekt getestet
-- Code in (teils unbekannten) Projekten wiederverwendet 
-- Die Bugs lauern überall
+
+Die Ausgangslage?
+
+*click*
+
+Oha, keine Unit Tests.
+
+Keine einige Zeile Testcode im Repository.
+
+Klar, wo testet man Bremsen? Im Auto.
+
+*click*
+
+Gut, es wurde ein bisschen SIL und HIL gemacht.
+
+*click*
+
+Aber das meiste wurde im Fahrversuch getestet.
+
+Viele Features waren also irgendwann, irgendwo in irgendeinem Projekt getestet.
+
+Daher das Motto: besser nichts ändern.
+
+*click*
+
+Aber wie soll das gehen, wenn der Code über alle Projekte geshared ist,
+
+alle Kunden mit neuen Anforderungen um die Ecke kommen ..
+
+*click*
+
+und mehrere 100 Entwickler weltweit an einer Codebasis arbeiten?
+
 
 --
 
@@ -64,14 +150,28 @@ Note:
 Continuous "Kind im Brunnen" <!-- .element: class="fragment" data-fragment-index="1" -->
 
 Note:
-- Irgendein Projekt immer rot (Compile- oder Link-Fehler)
-- Höchstes Qualitätskriterium: SW linkbar
-- Natürlich gab es Codeänderungen, Blaming und Shitstorm inclusive
-- Kritische Änderungen
-- Keine Testautomatisierung
-- Kein CI/CD
-- Keine Unittests (Embedded testet man Embedded)
-- Entwickler sind böse, die bauen Bugs in den Code.
+
+Wenn mich heute jemand fragt, was Continuous Integration ist, dann erinnere ich mich gerne an diese Zeit zurück.
+
+Daran, was Continuous Integration überhaupt nicht ist.
+
+Irgendwann ist mir ein treffender Name für die Situation damals eingefallen:
+
+*click*
+
+Continuous "Kind im Brunnen".
+
+Was heißt das genau?
+
+1. Höchstes Qualitätskriterium: SW linkbar.
+2. Irgendein Projekt ist immer rot (Compile- oder Link-Fehler)
+3. Keine Testautomatisierung
+4. Keine Unittests
+5. Entwickler sind böse, die bauen Bugs in den Code.
+
+Und wie fühlte man sich als Entwickler dabei?
+
+*click*
 
 --
 
@@ -92,4 +192,5 @@ Note:
 ![Tal der Tränen](images/tal_der_traenen.jpg) <!-- .element width="65%" -->
 
 Note:
-- Und man fand sich oft im "Tal der Tränen" wieder.
+
+Wie im Tal der Tränen.

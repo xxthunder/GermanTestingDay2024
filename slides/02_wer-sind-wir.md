@@ -24,12 +24,12 @@ Wir haben schon vor gut 8 Jahren bei Continental zusammengearbeitet und sind dan
 
 Dort haben wir gemeinsam an unserer Lösung für Software-Produktlinien gearbeitet, um die es heute nur am Rande gehen wird.
 
-Mittlerweile arbeitet er als DevOps Engineer und Testautomatisierer bei der Qytera GmbH und beschäftige mich viel mit Softwarequalität.
+Mittlerweile arbeitet er als DevOps Engineer und Testautomatisierer bei der Qytera GmbH.
 
 Ich selbst bin seit über 18 Jahren als Softwareentwickler im Automobilbereich unterwegs.
 
-Von Embedded C, Perl, Tcl bis hin zur Entwicklung von Tools und Jenkins Pipelines hab ich eigentlich schon fast alles gemacht.
+Von Ada, Embedded C, C++, Perl, Tcl, Python über die Entwicklung von Dev Tools bis hin zu Jenkins Pipelines hab ich schon eine Menge gesehen und gemacht.
 
-Aktuell arbeite ich als Entwickler und Architekt im Rhein-Main-Team der Marquardt GmbH.
+Aktuell arbeite ich als Platform Engineer im Rhein-Main-Team der Marquardt GmbH.
 
-Dort geht es um Software-Produktlinien, Automatisierung und CI/CD.
+Dort geht es um Software-Produktlinien, interne Developer Plattformen, Automatisierung und CI/CD.
