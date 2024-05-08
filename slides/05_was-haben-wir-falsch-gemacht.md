@@ -1,5 +1,7 @@
 ## Was haben wir eigentlich alles falsch gemacht?
 
+Note:
+
 Zunächst lief alles gut ...
 
 --
@@ -9,10 +11,10 @@ Zunächst lief alles gut ...
 ![](images/freestyle-happiness.png) <!-- .element width="80%" -->
 
 Note:
-- starten mit sehr einfachen freestyle jobs
-- keine Logik
-- Einfach nur bauen
-- nicht mal SCM --> PC auf dem Schreibtisch eines Kollegen, da ist alles drauf
+
+Klar, wenn man mit Jenkins startet, geht es mit einfachen freestyle jobs los.
+
+Einfach nur bauen.
 
 --
 
@@ -51,7 +53,7 @@ Höher, schneller, weiter: Eine Pipeline, um sie alle zu knechten.
 - Buildlogik in Pipelines (10000e Zeilen Groovy DSL) <!-- .element: class="fragment" -->
 - Ausreichend? Nein! Shared Libraries und Plugins gibt es ja auch noch ... <!-- .element: class="fragment" -->
 - Nicht nachvollziehbare CI Ergebnisse <!-- .element: class="fragment" -->
-- Worst case: getrennte Repos für Source Code und Pipeline <!-- .element: class="fragment" -->
+- Worst case: getrennte Repos für Produkt Source Code und CI Pipeline <!-- .element: class="fragment" -->
 
 Note:
 

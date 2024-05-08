@@ -14,11 +14,9 @@ Okay, wie geht es denn nun besser?
 
 Naja, auf jeden Fall braucht man ein Buildsystemgenerator, der die Abhängigkeiten auflöst und die Buildfiles generiert.
 
-CMake ist da aus meiner Sicht ein guter Kandidat.
+CMake ist da aus unserer Sicht ein guter Kandidat.
 
-Man braucht schon irgendeine Art von Pipeline
-
-Aber keine Jenkins Magie
+Man braucht schon irgendeine Art von Pipeline, aber nur als Steuerung des Build Systems.
 
 Kein CI Only Code
 
