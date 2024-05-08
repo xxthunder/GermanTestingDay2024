@@ -2,33 +2,81 @@
 
 ### Aber was?
 
-Aufbau einer Software Factory (2011-2021)  <!-- .element: class="fragment" -->
+Automotive Software Factory (2011-2021) <!-- .element: class="fragment" -->
+
+Note:
+
+Tja, wir müssen was ändern! Aber was?
+
+*click*
+
+Hier startet unsere CI Reise eigentlich erst so richtig.
+
+Nämlich mit dem Aufbau unserer Automotive Software Factory.
+
+Der Name kam erst später, aber Ideen gab es genug.
 
 --
 
 SW Änderungen nur bis 12 Uhr mittags, danach Bugfixing und Testen beim Fahrversuch.
 
-![](images/sad-developer.png) <!-- .element width="40%" -->
+![](images/sad-developer.png) <!-- .element: width="40%"  class="fragment" data-fragment-index="1" -->
 
-So funktioniert es nicht!
+Note:
+
+Eine Idee war ...
+
+Ihr könnt euch vorstellen, wie begeistert die Entwickler waren.
+
+*click*
+
+Zumal sich die Frage stellt, was 12 Uhr mittags bei einem internationalen Konzern ist, der weltweit verteilt arbeitet.
+
+Diese Idee hat nicht wirklich funktioniert.
+
+Was kann man sonst noch machen?
 
 --
 
 ## Unit Testing ist ein guter Anfang.
 
 - Mit eigenem Framework basierend auf CUnit <!-- .element: class="fragment" -->
-- Test Driven Development (TDD) <!-- .element: class="fragment" -->
 - Automatische Generierung von Mockups <!-- .element: class="fragment" -->
+- Test Driven Development (TDD) <!-- .element: class="fragment" -->
 - Nightly Tests auf Jenkins (und Hudson!) <!-- .element: class="fragment" -->
+
+Note:
+
+Klar, wenn man keine Unit Tests hat, dann ist das immer ein guter Anfang.
+
+Allerdings war das gar nicht so einfach, unseren Code testbar zu machen.
+
+*click*
+
+Wir haben uns ein eigenes Framework gebaut, basierend auf CUnit.
+
+*click*
+
+Die automatische Generierung von Mockups war ein großer Erfolg damals.
+
+Das händische Schreiben von Mockups (gerade in Zeiten von Autosar) war einfach zu aufwändig und eine große Hürde für die Entwickler.
+
+*click*
+
+Wir von Anfang an versucht, Test Driven Development basierend auf den Anforderungen zu etablieren.
+
+*click*
+
+Und klar, wenn man Unit Tests hat, will man die auch automatisiert ausführen.
 
 --
 
 ## Continuous Integration klingt auch nett.
 
-- Gerrit für Toolentwicklung <!-- .element: class="fragment" -->
-- Feature-based Testing via Commit Kommentare <!-- .element: class="fragment" -->
+- Gerrit und Jenkins für Tools <!-- .element: class="fragment" -->
+- Feature-based Testing mittels Commit-Kommentar <!-- .element: class="fragment" -->
 - SW Entwicklung weiterhin auf RCS. <!-- .element: class="fragment" -->
-- Eine Bastellösung folgt der Nächsten! <!-- .element: class="fragment" -->
+- CI mit RCS? Yes, we can! <!-- .element: class="fragment" -->
 
 --
 

@@ -2,16 +2,25 @@
 
 * Ein Meta-Buildsystem (z.B.: CMake)  <!-- .element: class="fragment" -->
 * Ein richtig schnelles Buildsystem für C/C++ (ninja) <!-- .element: class="fragment" -->
-* Kann alles bauen was vom Sourcecode abhängt <!-- .element: class="fragment" -->
 * Mittels Bootstrapping alle Dependencies <!-- .element: class="fragment" -->
 * Andere Git Repos via Cmake's Fetch_Content() <!-- .element: class="fragment" -->
 * Pipeline als Code im Repo <!-- .element: class="fragment" -->
 
 Note:
-- Scoop, Pypi, Conan, Git
-- Man braucht schon irgendeine Art von Pipeline
-- Aber keine Jenkins Magie
-- Kein CI Only Code
+
+Okay, wie geht es denn nun besser?
+
+*click*
+
+Naja, auf jeden Fall braucht man ein Buildsystemgenerator, der die Abhängigkeiten auflöst und die Buildfiles generiert.
+
+CMake ist da aus meiner Sicht ein guter Kandidat.
+
+Man braucht schon irgendeine Art von Pipeline
+
+Aber keine Jenkins Magie
+
+Kein CI Only Code
 
 --
 
@@ -35,7 +44,7 @@ Note:
 ## Jenkins
 
 * macht NICHTS anders als der User lokal <!-- .element: class="fragment" -->
-* Build über build.bat <!-- .element: class="fragment" -->
+* Build ist ein One-Liner <!-- .element: class="fragment" -->
 * Automatische Joberzeugung für Branches und Pull Requests <!-- .element: class="fragment" -->
 * Wenige Plugins zum Anzeigen von Ergebnissen <!-- .element: class="fragment" -->
 * Unterstützung der Entwickler bei Analyse von Fehlern <!-- .element: class="fragment" -->
