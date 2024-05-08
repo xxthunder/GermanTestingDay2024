@@ -78,11 +78,35 @@ Und klar, wenn man Unit Tests hat, will man die auch automatisiert ausführen.
 - SW Entwicklung weiterhin auf RCS. <!-- .element: class="fragment" -->
 - CI mit RCS? Yes, we can! <!-- .element: class="fragment" -->
 
+Note:
+
+Ja gut, wir haben einen Jenkins und ein paar Unit Tests.
+
+Lasst uns doch mal CI machen!
+
+*click*
+
+...
+
 --
 
 ## No git? <!-- .element: class="r-fit-text" -->
 
 ## No mercy! <!-- .element: class="r-fit-text fragment" style="color:red" -->
+
+Note:
+
+Was? Kein Git? Ihr macht CI mit RCS?
+
+*click*
+
+Sorry, aber dann gibt es keine Gnade!
+
+Ihr seid auf euch alleine gestellt!
+
+Und so war es auch. Wir sind nie von Nightly Builds weggekommen.
+
+Unsere CI Lösung lief parallel zu nightly builds.
 
 --
 
@@ -96,14 +120,16 @@ Das Monster, dass dabei rauskam:
 ![](images/jenkinstein.jpg) <!-- .element height="50%" width="50%" -->
 
 Note:
-- Klammer um alle separaten Buildumgebungen
-  - Target Build
-  - Unit Tests
-  - Statische Codeanalyse
-- Java, Bash, Perl, Python, Groovy
-- Code Generatoren:
-  - AutoSAR
-  - proprietäre Konfiguration und Parametrisierung
+
+Das Monster, dass dabei rauskam, war ein Jenkins, der alles konnte.
+
+Der Jenkinstein.
+
+Anstatt ein einheitliches Buildsystem incl. Pipeline zu haben, hatten wir eine Vielzahl von Jobs, die alle irgendwie zusammenhingen.
+
+Wir missbrauchten Jenkins als Buildsystem, als Testsystem, als Deployment-System, als Monitoring-System.
+
+All das, was unser Buildsystem nicht konnte, haben wir in Jenkins Pipelines gepackt.
 
 --
 
